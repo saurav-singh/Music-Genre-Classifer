@@ -4,8 +4,8 @@ import json
 import librosa
 
 
-DATASET_PATH = "../dataset"
-JSON_PATH = "../data.json"
+DATASET_PATH = "../DATASET"
+JSON_PATH = "Data.json"
 SAMPLE_RATE = 22050
 DURATION = 30  # Duration of audio (seconds)
 SAMPLES_PER_TRACK = SAMPLE_RATE * DURATION
